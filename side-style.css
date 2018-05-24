@@ -1,0 +1,161 @@
+/* importing fonts */
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,900');
+@import url('https://fonts.googleapis.com/css?family=Raleway:900,900i');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Lato:400,400italic,700');
+@import url('https://fonts.googleapis.com/css?family=Roboto:700italic');
+
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    background-color: #eee;
+}
+
+/*******************************
+SECONDARY NAVIGATION BAR STYLING
+*******************************/
+/* navbar inspired by w3-schools */
+
+.topnav_2{
+    overflow: hidden;
+    box-sizing: border-box;
+    background-color: #fff;
+    width: 100%;
+}
+
+.fixed {
+    position: fixed;
+    top: 0;
+}
+
+.topnav_2 nav {
+    float: left;
+}
+
+.topnav_2 p{
+    padding: 15px 0px;
+    margin: 15px 20px;
+    float: right;
+}
+
+.topnav_2 a {
+    float: left;
+    display: block;
+    color: #000;
+    text-align: center;
+    padding: 15px 15px;
+    margin: 15px 20px;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+}
+
+@media screen and (min-width: 889px) {    
+    .topnav_2 a:hover {
+    color: #FC534E;
+    }
+}
+
+/*********************
+SECONDARY LAYOUT WIDTH
+**********************/
+/* used in projects.html and future.html*/
+.content {
+    margin: 20px 0px;
+    text-align: center;
+    height: auto;
+}
+
+.narrow_2 {
+    line-height: 31px;
+    display: inline-block;
+    padding-top: 25px;
+}
+
+@media screen and (min-width: 889px) {
+    .narrow_2 {
+        width: 889px;
+    }
+}
+
+@media screen and (max-width: 889px) {
+    .narrow_2 {
+        width: 95%;
+    }
+}
+
+@media screen and (max-width: 889px) {
+    .content {
+        margin: 0 10px;;
+    }
+}
+
+/************************
+PROJECT CONTAINER STYLING
+************************/
+.project-container {
+    overflow:hidden;
+    background-color: #fff;
+    margin: 50px 0px;
+}
+.project-container img {
+    width: 100%;
+    height: auto;
+    max-height: 506px;
+}
+
+.project-desc {
+    text-align: left;
+}
+
+.project-desc p, .project-desc a {
+    padding: 10px 40px;
+}
+
+.project-desc a {
+    float: right;
+    display: block;
+    font-family: 'Raleway', sans-serif;
+}
+
+.project-desc b {
+    color: #FC534E;
+}
+
+
+/***********************
+FUTURE CONTAINER STYLING
+***********************/
+#future-article{
+    margin: 25px 0px;
+}
+.title-container {
+    overflow:hidden;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.title-container h1  {
+    margin: 0px 0px 10px;
+    color: #292929;
+    font-family: 'Roboto', sans-serif;
+    font-size: 37px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 40px;
+}
+
+.title-container h2  {
+    margin: 0px;
+    color: #757575;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+}
+
+.text-container {
+    overflow:hidden;
+    text-align: left;
+}
